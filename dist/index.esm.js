@@ -1539,7 +1539,7 @@ var mediaQueries = {
 var shadows = {
     level1: "0px 2px 12px -8px rgba(25, 19, 38, 0.1), 0px 1px 1px rgba(25, 19, 38, 0.05)",
     active: "0px 0px 0px 1px #0098A1, 0px 0px 4px 8px rgba(31, 199, 212, 0.4)",
-    success: "0px 0px 0px 1px #31D0AA, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
+    success: "0px 0px 0px 1px #31d0aa, 0px 0px 0px 4px rgba(49, 208, 170, 0.2)",
     warning: "0px 0px 0px 1px #ED4B9E, 0px 0px 0px 4px rgba(237, 75, 158, 0.2)",
     focus: "0px 0px 0px 1px #7645D9, 0px 0px 0px 4px rgba(118, 69, 217, 0.6)",
     inset: "inset 0px 2px 2px -1px rgba(74, 74, 104, 0.1)",
@@ -2222,68 +2222,14 @@ var links = [
 ];
 var socials = [
     {
-        label: "Telegram",
-        icon: "TelegramIcon",
-        items: [
-            {
-                label: "English",
-                href: "https://t.me/polyvertex",
-            },
-            // {
-            //   label: "Bahasa Indonesia",
-            //   href: "https://t.me/PancakeSwapIndonesia",
-            // },
-            // {
-            //   label: "中文",
-            //   href: "",
-            // },
-            // {
-            //   label: "Tiếng Việt",
-            //   href: "https://t.me/PancakeSwapVN",
-            // },
-            // {
-            //   label: "Italiano",
-            //   href: "",
-            // },
-            // {
-            //   label: "русский",
-            //   href: "",
-            // },
-            // {
-            //   label: "Türkiye",
-            //   href: "",
-            // },
-            {
-                label: "Español",
-                href: "https://t.me/polyvertex_spanish",
-            },
-            {
-                label: "Português",
-                href: "https://t.me/polyvertex_portugues",
-            },
-            // {
-            //   label: "日本語",
-            //   href: "",
-            // },
-            // {
-            //   label: "Français",
-            //   href: "",
-            // },
-            {
-                label: "Announcements",
-                href: "https://t.me/polyvertex_announcements",
-            },
-        ],
-    },
-    {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/FarmVertex",
+        href: "https://twitter.com/GradeApeTROOP",
     },
     {
         label: "Reddit",
         icon: "RedditIcon",
-        href: "https://www.reddit.com/r/PolyVertex/",
+        href: "https://www.reddit.com/r/GradeApeTROOP/",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2462,9 +2408,9 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/projects/polyvertex/" },
-            React.createElement("img", { src: "/images/kyc.png" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/project/polyvertex/" },
+        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/" },
+            React.createElement("img", { src: "/images/" })),
+        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/" },
             React.createElement("img", { src: "/images/rugdoc-dark.png" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
@@ -2870,7 +2816,7 @@ var baseColors = {
     primaryBright: "#343135",
     primaryDark: "#F9F9F9",
     secondary: "#44515e",
-    success: "#31D0AA",
+    success: "#31d0aa",
     warning: "#FFB237",
 };
 var brandColors = {

@@ -115,72 +115,14 @@ export const links = [
 
 export const socials = [
   {
-    label: "Telegram",
-    icon: "TelegramIcon",
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/polyvertex",
-      },
-      // {
-      //   label: "Bahasa Indonesia",
-      //   href: "https://t.me/PancakeSwapIndonesia",
-      // },
-      // {
-      //   label: "中文",
-      //   href: "",
-      // },
-      // {
-      //   label: "Tiếng Việt",
-      //   href: "https://t.me/PancakeSwapVN",
-      // },
-      // {
-      //   label: "Italiano",
-      //   href: "",
-      // },
-      // {
-      //   label: "русский",
-      //   href: "",
-      // },
-      // {
-      //   label: "Türkiye",
-      //   href: "",
-      // },
-      {
-        label: "Español",
-        href: "https://t.me/polyvertex_spanish",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/polyvertex_portugues",
-      },
-      // {
-      //   label: "日本語",
-      //   href: "",
-      // },
-      // {
-      //   label: "Français",
-      //   href: "",
-      // },
-      {
-        label: "Announcements",
-        href: "https://t.me/polyvertex_announcements",
-      },
-      // {
-      //   label: "Price Bot",
-      //   href: "",
-      // },
-    ],
-  },
-  {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/FarmVertex",
+    href: "https://twitter.com/GradeApeTROOP",
   },
   {
     label: "Reddit",
     icon: "RedditIcon",
-    href: "https://www.reddit.com/r/PolyVertex/",
+    href: "https://www.reddit.com/r/GradeApeTROOP/",
   },
 ];
 
