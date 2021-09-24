@@ -2408,10 +2408,10 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React.createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React.createElement(PanelBody, __assign({}, props)),
-        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/" },
-            React.createElement("img", { src: "/images/" })),
-        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/" },
-            React.createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React.createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "" },
+            React.createElement("img", { src: "" })),
+        React.createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "" },
+            React.createElement("img", { src: "" })),
         React.createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;

@@ -2421,10 +2421,10 @@ var Panel = function (props) {
     var isPushed = props.isPushed, showMenu = props.showMenu;
     return (React__default['default'].createElement(StyledPanel, { isPushed: isPushed, showMenu: showMenu },
         React__default['default'].createElement(PanelBody, __assign({}, props)),
-        React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "https://www.assuredefi.io/" },
-            React__default['default'].createElement("img", { src: "/images/" })),
-        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "https://rugdoc.io/" },
-            React__default['default'].createElement("img", { src: "/images/rugdoc-dark.png" })),
+        React__default['default'].createElement(AssureKyc, { target: "_blank", rel: "noreferrer", href: "" },
+            React__default['default'].createElement("img", { src: "" })),
+        React__default['default'].createElement(RugDoc, { target: "_blank", rel: "noreferrer", href: "" },
+            React__default['default'].createElement("img", { src: "" })),
         React__default['default'].createElement(PanelFooter, __assign({}, props))));
 };
 var templateObject_1$D, templateObject_2$d, templateObject_3$8;
