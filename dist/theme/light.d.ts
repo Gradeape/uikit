@@ -1,3 +1,3 @@
 import { DefaultTheme } from "styled-components";
-declare const darkTheme: DefaultTheme;
-export default darkTheme;
+declare const lightTheme: DefaultTheme;
+export default lightTheme;

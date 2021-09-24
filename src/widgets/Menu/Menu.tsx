@@ -63,7 +63,6 @@ const Menu: React.FC<NavProps> = ({
   login,
   logout,
   isDark,
-  toggleTheme,
   langs,
   setLang,
   currentLang,
